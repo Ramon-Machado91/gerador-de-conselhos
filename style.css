@@ -112,7 +112,7 @@ h1 {
 @media (max-width:390px){
   .container-1 {
     width: 400px;
-    height: 900px;
+    height: 700px;
   }
 
   .advice-update{
@@ -122,8 +122,8 @@ h1 {
     border: none;
     background-color: var(--advice-dice-color);
       position: relative;
-      left: 44%;
-      bottom: -10%;
+      left: 43%;
+      bottom: -21%;
     }
   
     .advice-update:hover{
@@ -132,5 +132,13 @@ h1 {
       box-shadow: 0 5px 15px var(--advice-dice-color);
     }
 
-  
 }
+
+@media (max-width:387px){
+  .container-1 {
+    width: 400px;
+    height: 900px;
+  }
+}
+
+
