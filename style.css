@@ -59,43 +59,47 @@ h1 {
   padding-top: 1.875rem;
 }
 
-.icone {
+.advice-update{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
   background-color: var(--advice-dice-color);
-  display: block;
   position: relative;
-  width: 3.75rem;
-  height: 3.75rem;
-  border-radius: 3.75rem;
   left: 46%;
   bottom: -18%;
 }
 
-.icone img {
-  display: block;
-  position: relative;
-  left: 30%;
-  bottom: -30%;
+.advice-update:hover{
+  color: #53FFAB;
+  cursor: pointer;
+  box-shadow: 0 5px 15px var(--advice-dice-color);
 }
+
 /* Responsivo */
 @media (max-width: 720px) {
   .container-1 {
     width: 31.25rem;
     height: 37.5rem;
   }
-
-  .icone {
-    display: block;
+  
+  .advice-update{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--advice-dice-color);
     position: relative;
     left: 44%;
     bottom: -20%;
   }
 
-  .icone img {
-    display: block;
-    position: relative;
-    left: 28%;
-    bottom: -30%;
+  .advice-update:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
   }
+
 }
 
 @media (max-width:470px){
@@ -105,23 +109,28 @@ h1 {
   }
 }
 
-@media (max-width:375px){
+@media (max-width:390px){
   .container-1 {
     width: 400px;
-    height: 850px;
+    height: 900px;
   }
 
-  .icone {
-    display: block;
-    position: relative;
-    left: 42%;
-    bottom: -20%;
-  }
+  .advice-update{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+      position: relative;
+      left: 44%;
+      bottom: -10%;
+    }
+  
+    .advice-update:hover{
+      color: #53FFAB;
+      cursor: pointer;
+      box-shadow: 0 5px 15px var(--advice-dice-color);
+    }
 
-  .icone img {
-    display: block;
-    position: relative;
-    left: 30%;
-    bottom: -30%;
-  }
+  
 }
