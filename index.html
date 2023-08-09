@@ -21,28 +21,22 @@
   <body>
     <main>
       <div class="container-1">
-        <div class="conselho-numero"><h1>ADVICE #177</h1></div>
+        <div class="conselho-numero"><h1>ADVICE <span id="advice-number">#177</span></h1></div>
         <div class="conselho-mensagem">
-          <p>
+          <p id="advice">
             "It is easy to sit up and take notice, what's difficult is getting
             up and taking action."
           </p>
-          <picture>
-            <source
-              media="(max-width:720px)"
-              srcset="./images/pattern-divider-mobile.svg"
-            />
-            <img
-              src="./images/pattern-divider-desktop.svg"
-              alt="divisória estilizada"
-            />
-          </picture>
         </div>
-
-        <button class="advice-update">
+        <pictur>
+          <div class="divisoria">
+            <img src="./images/pattern-divider-desktop.svg" alt="">
+          </div>
+        <button id="advice-button" class="advice-update">
           <img src="./images/icon-dice.svg" alt="Dice icon">
       </button>
       </div>
     </main>
+    <script src="./function/index.js"></script>
   </body>
 </html>
