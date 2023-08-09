@@ -17,7 +17,7 @@ const number = document.querySelector('#advice-number')
 const msgAdvice = document.querySelector('#advice')
 
 msgAdvice.innerHTML = `"${advice}"`
-number.innerHTML = `${numero}`;
+number.innerHTML = `#${numero}`;
 
 }
 
