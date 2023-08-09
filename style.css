@@ -80,5 +80,5 @@ h1 {
 .advice-update:hover {
   color: #53ffab;
   cursor: pointer;
-  box-shadow: 0 5px 15px var(--advice-dice-color);
+  box-shadow: 0 0.3125rem 0.9375rem var(--advice-dice-color);
 }
